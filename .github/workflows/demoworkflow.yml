@@ -9,10 +9,11 @@ on:
   
   pull_request:
     branches:
-      - main    
-	types: 
-		- opened
-		- closed    
+      - main  
+	  - second
+	types:
+      - opened
+      - closed
   
   workflow_dispatch:
 
